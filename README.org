@@ -1,0 +1,38 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+#+TITLE: 一些工具总结
+#+EMAIL: valjean@foxmail.com
+#+AUTHOR: valjean
+#+OPTIONS: toc:2
+#+OPTIONS: toc:t
+#+STARTUP: overview
+#+COLUMNS: %25ITEM %TAGS %TODO %3PRIORITYd
+#+OPTIONS: ^:nil
+#+OPTIONS: email:t
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://orgmode.org/org-manual.css" />
+
+# bro 
+* linux 基础命令
+  - [[http://www.runoob.com/linux/linux-command-manual.html][Linux  菜鸟教程]]
+** 本机中学习的一些方法
+#+begin_example
+   1. 先对命令有个整体的认识，然后再使用的过程中，再逐步加深记忆
+   2. 用which 可以查看命令所在路径: which  ls 
+   3. 有 /bin/  /usr/bin/  /usr/local/bin/   这几个目录，可以依次查看这目录下的命令，然后在网络上搜索用法
+#+end_example
+
+** 我常用的一些命令
+
+*** 简单的
+   - cat cd chmod chown cp du echo exit fg find  grep help history kill ldconfig ll ls make man mkdir mv open ping ps pstree pwd rm scp sh source ssh su sudo sz tailf tar time top touch tree unzip wget curl which 
+*** 稍微难点的和需要额外安装的
+   - xmllint yum brew tmux emacs jq mux netstat npm pip python vim git sed awk 
+* sublime 教程
+   - [[http://blog.csdn.net/hxn_fight/article/details/44587471][sublime 总结]]
+   - [[http://blog.csdn.net/hxn_fight/article/details/52767434][sublime 实时预览配置]]
+   - [[http://www.cnblogs.com/figure9/p/sublime-text-complete-guide.html][网络教程]]
+* markdown 教程
+  - [[http://www.appinn.com/markdown/][markdown 简明教程]]
+
+
+

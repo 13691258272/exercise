@@ -1,0 +1,432 @@
+<PegasusXml>
+<Config>
+<LogPath>/data/ops/app/Pegasus/log</LogPath>
+<CachePath>/data/replay</CachePath>
+<Alarm_interval>15</Alarm_interval>
+<ClusterDomain></ClusterDomain>
+<DelayTime>0</DelayTime>
+<LocalIp></LocalIp>
+<Get_interval>600</Get_interval>
+<UploadTask>0</UploadTask>
+</Config>
+<Task id="1">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/1/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv1/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="2">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/2/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv2/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="3">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/3/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv3/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="4">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/4/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv4/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="5">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/5/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv5/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="6">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/6/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv6/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="7">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/7/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv7/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="8">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/8/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv8/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="9">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/9/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv10/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="10">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/10/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv12/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="11">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/11/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv13/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="12">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/12/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv14/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="13">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/13/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/cctv15/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="14">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/14/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/lnws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="15">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/22/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/hnwshn/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="16">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/24/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/zjws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="17">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/25/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/sdws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="18">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/26/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/scws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="19">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/27/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/hnws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="20">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/28/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/bjws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+<Task id="21">
+<Input>
+<Source>
+<Stream type="0">
+<Url>http://127.0.0.1:82/live/29/live.m3u8</Url>
+</Stream>
+</Source>
+</Input>
+<Output>
+<Stream type="3">
+<Url>/tjws/live.m3u8</Url>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<TVTY>1</TVTY>
+<M3U8TYPE>0</M3U8TYPE>
+<TimeShift>3600</TimeShift>
+<FullIndex>1</FullIndex>
+</Stream>
+</Output>
+</Task>
+</PegasusXml>
