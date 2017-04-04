@@ -1,0 +1,432 @@
+</Config>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Input>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</Output>
+</PegasusXml>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Source>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Stream>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+</Task>
+<Alarm_interval>15</Alarm_interval>
+<CachePath>/data/replay</CachePath>
+<ClusterDomain></ClusterDomain>
+<Config>
+<DelayTime>0</DelayTime>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<FullIndex>1</FullIndex>
+<Get_interval>600</Get_interval>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<Input>
+<LocalIp></LocalIp>
+<LogPath>/data/ops/app/Pegasus/log</LogPath>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<M3U8TYPE>0</M3U8TYPE>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<Output>
+<PegasusXml>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SegDuration>10</SegDuration>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<SliceNum>5</SliceNum>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Source>
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="0">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Stream type="3">
+<Task id="1">
+<Task id="10">
+<Task id="11">
+<Task id="12">
+<Task id="13">
+<Task id="14">
+<Task id="15">
+<Task id="16">
+<Task id="17">
+<Task id="18">
+<Task id="19">
+<Task id="2">
+<Task id="20">
+<Task id="21">
+<Task id="3">
+<Task id="4">
+<Task id="5">
+<Task id="6">
+<Task id="7">
+<Task id="8">
+<Task id="9">
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TimeShift>3600</TimeShift>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<TVTY>1</TVTY>
+<UploadTask>0</UploadTask>
+<Url>/bjws/live.m3u8</Url>
+<Url>/cctv1/live.m3u8</Url>
+<Url>/cctv10/live.m3u8</Url>
+<Url>/cctv12/live.m3u8</Url>
+<Url>/cctv13/live.m3u8</Url>
+<Url>/cctv14/live.m3u8</Url>
+<Url>/cctv15/live.m3u8</Url>
+<Url>/cctv2/live.m3u8</Url>
+<Url>/cctv3/live.m3u8</Url>
+<Url>/cctv4/live.m3u8</Url>
+<Url>/cctv5/live.m3u8</Url>
+<Url>/cctv6/live.m3u8</Url>
+<Url>/cctv7/live.m3u8</Url>
+<Url>/cctv8/live.m3u8</Url>
+<Url>/hnws/live.m3u8</Url>
+<Url>/hnwshn/live.m3u8</Url>
+<Url>/lnws/live.m3u8</Url>
+<Url>/scws/live.m3u8</Url>
+<Url>/sdws/live.m3u8</Url>
+<Url>/tjws/live.m3u8</Url>
+<Url>/zjws/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/1/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/10/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/11/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/12/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/13/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/14/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/2/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/22/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/24/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/25/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/26/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/27/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/28/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/29/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/3/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/4/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/5/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/6/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/7/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/8/live.m3u8</Url>
+<Url>http://127.0.0.1:82/live/9/live.m3u8</Url>
