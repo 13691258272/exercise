@@ -1,16 +1,46 @@
 * shell exercise
-* 1 中的练习
+
+
+
+* 1 
+
 ** 找出完整的url: http:// 
+
+  grep "Url" 134 | cut -d '>' -f 2 |cut -d '<' -f 1
+
 ** 统计行数
+
+   nl  wc
+
 ** 排序
+
+   sort
+
 ** 去重
+
+  uniq -c 
+
 ** 将url中的频道名称提取出来
+
+ grep "Url" 134 | cut -d '>' -f 2 |cut -d '<' -f 1 | cut -d '/' -f  5
+
+
+
+
 
 * 2 
 
+
 ** 解压data.tar.bz2
 
-** 找出所有的txt文件
+ tar -xjvf data.tar.bz2
+
+
+** 找出所有的txt文件 
+
+
+find -name "*.txt" -print
+
 
 ** 取出文件中的第三列和最后一列（文件中有错误数据）
 
@@ -18,13 +48,33 @@
 
 ** 解压log.tar.bz2
 
+
+ tar -xjvf log.tar.bz2
+
+
 ** 找出所有的带ts的url
+
+
+ grep ".ts" 2017-03-12-00.txt 2017-03-12-01.txt
+
+ cut -d '=' -f 3 2017-03-12-00.txt 2017-03-12-01.txtc | cut -d ',' -f 1 
+
 
 ** 针对url取出ts名称
 
+
+ cut -d '=' -f 3 2017-03-12-00.txt 2017-03-12-01.txtc | cut -d , -f 1 | cut -d '/' -f 6 |cut -d '.' -f 1 
+
+
 ** 针对ts排重汇总
 
+ cut -d '=' -f 3 2017-03-12-00.txt 2017-03-12-01.txtc | cut -d , -f 1 | cut -d '/' -f 6 |cut -d '.' -f 1 | uniq -d 
+
 ** 抽取相同taskid的数据
+
+抽取taskid 数据
+
+grep "taskid=\[ id数字 \]" 2017-03-12-00.txt 2017-03-12-01.txt
 
 * tip
 
