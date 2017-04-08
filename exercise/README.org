@@ -44,7 +44,10 @@ find -name "*.txt" -print
 
 ** 取出文件中的第三列和最后一列（文件中有错误数据）
 
-* 3
+* awk '{print $3}' fileName 第三列
+
+ cat 01.txt | awk  '{print $3 ,$5}'n | sed -n 's/=/ /gp' | cut -d ' ' -f 1,6
+ 
 
 ** 解压log.tar.bz2
 
