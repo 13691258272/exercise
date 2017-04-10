@@ -36,3 +36,8 @@
 
 
 
+* regex 相关教程
+
+** [[http://www.cnblogs.com/deerchao/archive/2006/08/24/zhengzhe30fengzhongjiaocheng.html][30分钟入门]]
+
+** [[http://www.cnblogs.com/kaituorensheng/p/4236254.html][linux 中使用的regex]]
